@@ -10,7 +10,7 @@ st.write('Prediction model for diabetes. Enter all values')
 
 def var_input():
     pregnacies = st.selectbox('Number of Pregnacies',(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20))
-    glucose = st.number_input('Glucose Level (Plasma glucose concentration after 2 hours in an oral glucose tolerance test',)
+    glucose = st.number_input('Glucose Level (Plasma glucose concentration after 2 hours in an oral glucose tolerance test')
     blood_pressure = st.number_input('Blood Pressure Level ( Diastolic blood pressure [mm Hg])')
     skin_thickness = st.number_input('Skin Thickness (Triceps skinfold thickness [mm])')
     insulin = st.number_input('Insulin Level (2-hour serum insulin [mu U/ml])')
