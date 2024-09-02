@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open('Diabetes Saved.pkl', 'rb') as mod:
+with open('Diabetes.pkl', 'rb') as mod:
     model = pickle.load(mod)
 
 st.title('Diabetes Disease Dictector')
