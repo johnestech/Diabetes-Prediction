@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pds
+import pandas as pd
 import pickle
 
 with open('Diabetes.pkl', 'rb') as mod:
